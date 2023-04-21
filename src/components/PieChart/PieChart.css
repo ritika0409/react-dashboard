@@ -1,0 +1,9 @@
+.piechart{
+    width: 45%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 2%;
+}
+.piechart #canvasjs-react-chart-container-3{
+    width:40% !important;
+}

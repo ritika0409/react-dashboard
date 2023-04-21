@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width:80%;
+    align-items: center;
+    
+
+}
+input{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    
+}
+.navbar h1{
+    flex-grow: 6;
+}
+.search{
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    
+}
+.icon {
+    position: absolute;
+    right: 0;
+  }

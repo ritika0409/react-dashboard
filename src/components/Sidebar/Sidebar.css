@@ -1,0 +1,33 @@
+.sidebar{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 20%;
+    align-content: center;
+}    
+.menu{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+.bottom-menu{
+    position: absolute;
+    bottom:10%;
+    margin: 0;
+    
+}

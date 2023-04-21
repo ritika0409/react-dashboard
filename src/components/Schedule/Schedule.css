@@ -1,0 +1,15 @@
+.schedule{
+    padding: 2%;
+    background-color: white;
+    border-radius: 20px;
+    width: 45%;
+    margin: 2%;
+}
+.box1{
+    border-left:5px solid #9BDD7C;
+    padding-left: 5px;
+}
+.box2{
+    border-left:5px solid  #6972C4;
+    padding-left: 5px;
+}

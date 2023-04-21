@@ -1,0 +1,10 @@
+import axios from "axios";
+ const fetchData = () => {
+    return axios.get("https://api.dribbble.com/v2/user")
+          .then((response) => setUser(response.data));
+  }
+
+  useEffect(() => {
+    const data = fetchData();
+    console.log(data);
+  },[])

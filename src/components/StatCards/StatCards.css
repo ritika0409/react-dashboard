@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    margin: 10px;
+    width: 22%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2%;;
+}
+.icons svg{
+    height: 2em;
+}
+.value{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
