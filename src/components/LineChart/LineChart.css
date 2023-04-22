@@ -1,7 +1,12 @@
 .linechart{
     background-color: white;
     padding: 1%;
+    border-radius: 20px;
 }
-CanvasJSChart{
+.canvasjs-chart-canvas{
     width: 90%;
+    height:35vh;
+}
+#canvasjs-react-chart-container-1{
+    height:35vh !important;
 }

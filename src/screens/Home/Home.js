@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import "./Home.css"
-import Navbar from '../components/Navbar/Navbar'
-import Sidebar from '../components/Sidebar/Sidebar'
-import StatCards from '../components/StatCards/StatCards'
-import LineChart from '../components/LineChart/LineChart'
-import PieChart from '../components/PieChart/PieChart'
-import Schedule from '../components/Schedule/Schedule'
+import Navbar from '../../components/Navbar/Navbar'
+import Sidebar from '../../components/Sidebar/Sidebar'
+import StatCards from '../../components/StatCards/StatCards'
+import LineChart from '../../components/LineChart/LineChart'
+import PieChart from '../../components/PieChart/PieChart'
+import Schedule from '../../components/Schedule/Schedule'
 
 export default class 
  extends Component {

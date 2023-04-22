@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&family=Montserrat:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+.loginwindow{
+    display: flex ;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width:50vw;
+    flex-wrap: wrap;
+    font-family: 'Lato';
+}
+.loginwindow h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    margin:1%;
+}
+.loginwindow p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    margin: 1%;
+}
+signin-buttons{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.signin-buttons button{
+    background-color: white;
+    border: 0px;
+    margin: 1%;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+    color:  #858585;
+    width: 48%;
+    font-size: 1rem;
+    padding: 1%;
+}
+.login-box{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    height: 30vh;
+    align-content: center;
+    justify-content:space-between;
+    display: flex;
+    flex-direction: column;
+    width:40vh;
+
+}
+.login-box input{
+    background: #F5F5F5;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 3%;
+    height: 2rem;
+}
+.signin{
+    background: #000000;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 4%;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    padding: 2%;
+
+}
+.forgot{
+    color:#346BD4;
+}
+.signup-info{
+    display: flex;
+    flex-direction: row;
+    color: #858585;
+    align-items: center;
+    justify-content: center;
+    
+}
+.register{
+    border: 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    color:#346BD4;
+}

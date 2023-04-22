@@ -6,17 +6,13 @@ export default class PieChart extends Component {
     render() {
 		const options = {
 			animationEnabled: true,
-			title: {
-				text: "Top Products"
-			},
 			data: [{
 				type: "pie",
-				startAngle: 75,
-				toolTipContent: "<b>{label}</b>: {y}%",
 				showInLegend: "true",
-				legendText: "{label}",
-				indexLabelFontSize: 16,
-				indexLabel: "{label} - {y}%",
+				legendText: "{label}: {y}%",
+				indexLabel: "{y}%",
+				indexLabelPlacement: "inside",
+                toolTipContent: "{label}: <strong>{y}%</strong>",
 				dataPoints: [
 					{ y: 55, label: "Basic Tees" },
 					{ y: 31, label: "Custom Short Pants" },

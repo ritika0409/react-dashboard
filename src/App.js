@@ -1,10 +1,12 @@
-import Home from "./screens/Home";
-
+import Home from "./screens/Home/Home"
+import Login from "./screens/Login/Login";
 
 function App() {
   return (
     <div className="app">
-        <Home/>
+        <Login/>
+        {//<Home/>
+        }
     </div>
   );
 }

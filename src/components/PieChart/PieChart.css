@@ -1,9 +1,21 @@
 .piechart{
     width: 45%;
+    height: 25vh;
     border-radius: 20px;
     background-color: #FFFFFF;
-    margin: 2%;
+    margin: 1%;
+    padding:2% ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.piechart #canvasjs-react-chart-container-3{
-    width:40% !important;
+.canvasjs-chart-canvas{
+    height: 25vh !important;
+    width:90% !important;
+}
+#canvasjs-react-chart-container-5{
+    height: 25vh !important;
+}
+.canvasjs-chart-credit{
+    visibility: hidden;
 }

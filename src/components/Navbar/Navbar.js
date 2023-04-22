@@ -16,7 +16,6 @@ export default class
             placeholder="Search..."
             />
           <span class="icon"><BiSearch/></span>
-
         </div>
         <BsBell/>
         <BsBell/>
