@@ -1,21 +1,33 @@
 .piechart{
     width: 45%;
-    height: 25vh;
+    height: 30vh;
     border-radius: 20px;
     background-color: #FFFFFF;
     margin: 1%;
-    padding:2% ;
-    align-items: center;
+    padding:1%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-.canvasjs-chart-canvas{
+.piechart .canvasjs-chart-canvas{
     height: 25vh !important;
     width:90% !important;
 }
-#canvasjs-react-chart-container-5{
+#canvasjs-react-chart-container-3{
     height: 25vh !important;
 }
 .canvasjs-chart-credit{
     visibility: hidden;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+.heading select{
+    color: #858585;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    border: 0px;
 }

@@ -52,7 +52,17 @@ export default class LineChart extends Component {
 		
 		return (
 		<div className='linechart'>
-            <h1>Activities</h1>
+			<div className='heading-activites'>
+				<h1>Activities</h1>
+				<select>
+					<option value={["Jan","Feb","Mar","Apr"]}>Jan-Apr</option>
+					<option value={["May","Jun","Jul","Aug"]}>May-Aug</option>
+					<option value={["Jan","Feb","Mar","Apr"]}>Sep-Dec</option>
+
+				</select>
+			</div>
+            
+
 			<CanvasJSChart options = {options} />
 		</div>
 		);

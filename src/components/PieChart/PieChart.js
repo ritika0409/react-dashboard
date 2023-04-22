@@ -22,6 +22,14 @@ export default class PieChart extends Component {
 		}
 		return (
 		<div className='piechart'>
+			<div className='heading'>
+				<h1>Top Products</h1>
+				<select>
+					<option value={["Jan","Feb","Mar","Apr"]}>Jan-Apr</option>
+					<option value={["May","Jun","Jul","Aug"]}>May-Aug</option>
+					<option value={["Jan","Feb","Mar","Apr"]}>Sep-Dec</option>
+				</select>
+			</div>
 			<CanvasJSChart options = {options}
 			/>
 		</div>

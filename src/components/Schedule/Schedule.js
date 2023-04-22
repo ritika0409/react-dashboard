@@ -4,7 +4,7 @@ export default class Schedule extends Component {
   render() {
     return (
       <div className='schedule'>
-            <h2>Schedule</h2>
+            <h1>Schedule</h1>
             <div className='box1'>
                 <p>Meeting with suppliers from Kuta Bali</p>
                 <p>14.00-15.00</p>

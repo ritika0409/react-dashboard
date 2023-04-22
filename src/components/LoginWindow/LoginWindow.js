@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./LoginWindow.css";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import { FcGoogle } from "react-icons/fc";
 import { AiFillApple } from "react-icons/ai";
 export default class LoginWindow extends Component {
@@ -25,11 +25,11 @@ export default class LoginWindow extends Component {
             <p>Password</p>
             <input type='password'></input>
             <p className='forgot'>Forgot Password?</p>
-            <button className='signin'>Sign In</button>
+            <Link className='signin' to="/Home">Sign In</Link>
         </div>
         <div className='signup-info'>
             <p>Don't have an account?</p>
-            <button className='register'>Register here</button>
+            <button className='register' >Register here</button>
         </div>
         
       </div>

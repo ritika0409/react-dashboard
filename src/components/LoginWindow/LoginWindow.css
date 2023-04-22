@@ -21,14 +21,16 @@
     font-weight: 400;
     margin: 1%;
 }
-signin-buttons{
+.signin-buttons{
     display: flex ;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    
     
 }
 .signin-buttons button{
+    display: flex;
     background-color: white;
     border: 0px;
     margin: 1%;
@@ -50,6 +52,7 @@ signin-buttons{
     display: flex;
     flex-direction: column;
     width:40vh;
+    margin-top:2% ;
 
 }
 .login-box input{
