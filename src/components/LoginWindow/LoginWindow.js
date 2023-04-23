@@ -86,7 +86,7 @@ const LoginWindow = () => {
           <p>Password</p>
           <input type="password"></input>
           <p className="forgot">Forgot Password?</p>
-          <Link className="signin" to="/Home">
+          <Link className="signin" to="/home">
             {register ? "Sign Up" : "Sign In"}
           </Link>
         </div>
