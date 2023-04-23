@@ -50,8 +50,18 @@ const LoginWindow = () => {
   return (
     <div>
       <div className="loginwindow">
-        <h1>Sign In</h1>
-        <p>Sign in to your account</p>
+        {register ? (
+          <>
+            <h1>Sign Up</h1>
+            <p>Sign un to your account</p>
+          </>
+        ) : (
+          <>
+            <h1>Sign In</h1>
+            <p>Sign in to your account</p>
+          </>
+        )}
+
         <div className="signin-buttons">
           <button onClick={routeChange}>
             <FcGoogle />
