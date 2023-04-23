@@ -10,7 +10,10 @@
 }
 .schedule p {
   margin: 2%;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
 }
 .box1 {
   border-left: 5px solid #9bdd7c;
